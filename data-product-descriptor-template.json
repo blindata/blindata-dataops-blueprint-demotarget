@@ -1,0 +1,71 @@
+{
+  "dataProductDescriptor": "1.0.0",
+  "info": {
+    "fullyQualifiedName": "urn:dpds:blindata:dataproducts:test:1",
+    "domain": "testDomain",
+    "name": "test",
+    "version": "1.0.0",
+    "displayName": "test",
+    "description": "",
+    "owner": {
+      "id": "john.doe@company-xyz.com",
+      "name": "john.doe@company-xyz.com"
+    },
+    "contactPoints": []
+  },
+  "interfaceComponents": {
+    "inputPorts": [
+      {
+        "fullyQualifiedName": "urn:dpds:blindata:dataproducts:test:1:1.0.0:inputPorts:inputPortName",
+        "name": "inputPortName",
+        "version": "1.0.0",
+        "displayName": "inputPortDisplayName",
+        "description": "inputPortDescription",
+        "componentGroup": null,
+        "x-prop": null,
+        "dependsOn": "blindata:systems:airline_demo",
+        "slo": null,
+        "expectations": null,
+        "contracts": null,
+        "tags": []
+      }
+    ],
+    "outputPorts": []
+  },
+  "internalComponents": {
+    "lifecycleInfo": {
+      "dev": [
+        {
+          "service": {
+            "$href": "dummy"
+          },
+          "template": {
+            "specification": "spec",
+            "specificationVersion": "2.0",
+            "definition": {}
+          },
+          "configurations": {
+            "params": {},
+            "stagesToSkip": []
+          }
+        }
+      ],
+      "prod": [
+        {
+          "service": {
+            "$href": "dummy"
+          },
+          "template": {
+            "specification": "spec",
+            "specificationVersion": "2.0",
+            "definition": {}
+          },
+          "configurations": {
+            "params": {},
+            "stagesToSkip": []
+          }
+        }
+      ]
+    }
+  }
+}
