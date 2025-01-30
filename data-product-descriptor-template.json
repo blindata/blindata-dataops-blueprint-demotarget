@@ -1,22 +1,22 @@
 {
   "dataProductDescriptor": "1.0.0",
   "info": {
-    "fullyQualifiedName": "urn:dpds:blindata:dataproducts:provaaaaa:1",
+    "fullyQualifiedName": "urn:dpds:blindata:dataproducts:testDeleteme:1",
     "domain": "Marketing24",
-    "name": "provaaaaa",
+    "name": "testDeleteme",
     "version": "1.0.0",
-    "displayName": "Provaaaaa",
+    "displayName": "TestDeleteme",
     "description": "",
     "owner": {
-      "id": "john.doe@company-xyz.com",
-      "name": "john.doe@company-xyz.com"
+      "id": "owner@default.blindata.io",
+      "name": "owner@default.blindata.io"
     },
     "contactPoints": []
   },
   "interfaceComponents": {
     "inputPorts": [
       {
-        "fullyQualifiedName": "urn:dpds:blindata:dataproducts:provaaaaa:1:1.0.0:inputPorts:inputPortName",
+        "fullyQualifiedName": "urn:dpds:blindata:dataproducts:testDeleteme:1:1.0.0:inputPorts:inputPortName",
         "name": "inputPortName",
         "version": "1.0.0",
         "displayName": "inputPortDisplayName",
@@ -32,7 +32,7 @@
     ],
     "outputPorts": [
       {
-        "fullyQualifiedName": "urn:dpds:blindata:dataproducts:provaaaaa:1:1.0.0:outputPorts:outputPortName",
+        "fullyQualifiedName": "urn:dpds:blindata:dataproducts:testDeleteme:1:1.0.0:outputPorts:outputPortName",
         "name": "outputPortName",
         "version": "1.0.0",
         "displayName": "outputPortDisplayName",
@@ -77,7 +77,7 @@
                     "definition": {
                       "name": "entity",
                       "version": "1.0.0",
-                      "fullyQualifiedName": "urn:dpds:blindata:dataproducts:provaaaaa:1:1.0.0:outputPorts:outputPortName:tables:film_rental_sales.profit.v_monthly_customer_payments",
+                      "fullyQualifiedName": "urn:dpds:blindata:dataproducts:testDeleteme:1:1.0.0:outputPorts:outputPortName:tables:film_rental_sales.profit.v_monthly_customer_payments",
                       "displayName": "Monthly Customer Payments",
                       "description": "The view that store the information about monthly customer payments",
                       "physicalType": "VIEW",
