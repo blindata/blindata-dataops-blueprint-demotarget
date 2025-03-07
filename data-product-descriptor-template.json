@@ -1,11 +1,11 @@
 {
   "dataProductDescriptor": "1.0.0",
   "info": {
-    "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:test5",
+    "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:test6:1",
     "domain": "test",
-    "name": "test5",
+    "name": "test6",
     "version": "1.0.0",
-    "displayName": "test5",
+    "displayName": "test6",
     "description": "",
     "owner": {
       "id": "john.doe@company-xyz.com",
@@ -16,7 +16,7 @@
   "interfaceComponents": {
     "inputPorts": [
       {
-        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:test5:1.0.0:inputPorts:inputPortName",
+        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:test6:1:1.0.0:inputPorts:inputPortName",
         "name": "inputPortName",
         "version": "1.0.0",
         "displayName": "inputPortDisplayName",
@@ -32,7 +32,7 @@
     ],
     "outputPorts": [
       {
-        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:test5:1.0.0:outputPorts:outputPortName",
+        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:test6:1:1.0.0:outputPorts:outputPortName",
         "name": "outputPortName",
         "version": "1.0.0",
         "displayName": "outputPortDisplayName",
@@ -77,7 +77,7 @@
                     "definition": {
                       "name": "entity",
                       "version": "1.0.0",
-                      "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:test5:1.0.0:outputPorts:outputPortName:tables:film_rental_sales.profit.v_monthly_customer_payments",
+                      "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:test6:1:1.0.0:outputPorts:outputPortName:tables:film_rental_sales.profit.v_monthly_customer_payments",
                       "displayName": "Monthly Customer Payments",
                       "description": "The view that store the information about monthly customer payments",
                       "physicalType": "VIEW",
