@@ -1,12 +1,12 @@
 {
   "dataProductDescriptor": "1.0.0",
   "info": {
-    "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea:1",
+    "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea2:1",
     "domain": "Marketing",
-    "name": "myPerformanceAmEmea",
+    "name": "myPerformanceAmEmea2",
     "version": "1.0.0",
-    "displayName": "My Performance AM – EMEA",
-    "description": "MyPerformance AM - Data Mart",
+    "displayName": "My Performance AM – EMEA 2",
+    "description": "My Performance AM – EMEA 2 - KPIs Data Mart",
     "owner": {
       "id": "giandomenico.avelluto@quantyca.it",
       "name": "giandomenico.avelluto@quantyca.it"
@@ -16,7 +16,7 @@
   "interfaceComponents": {
     "inputPorts": [
       {
-        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea:1:1.0.0:inputPorts:appointmentsTable",
+        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea2:1:1.0.0:inputPorts:appointmentsTable",
         "name": "appointmentsTable",
         "version": "1.0.0",
         "displayName": "appointmentsTable",
@@ -32,10 +32,10 @@
     ],
     "outputPorts": [
       {
-        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea:1:1.0.0:outputPorts:myPerformanceAmDataMart",
-        "name": "myPerformanceAmDataMart",
+        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea2:1:1.0.0:outputPorts:myPerformanceAmKPIsDataMart",
+        "name": "myPerformanceAmKPIsDataMart",
         "version": "1.0.0",
-        "displayName": "myPerformanceAmDataMart",
+        "displayName": "myPerformanceAmKPIsDataMart",
         "description": "Data Mart contentenente tutte le KPI relative a MyPerformance",
         "componentGroup": null,
         "x-prop": null,
@@ -77,7 +77,7 @@
                     "definition": {
                       "name": "v_monthly_customer_payments",
                       "version": "1.0.0",
-                      "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea:1:1.0.0:outputPorts:myPerformanceAmDataMart:tables:film_rental_sales.profit.v_monthly_customer_payments",
+                      "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea2:1:1.0.0:outputPorts:myPerformanceAmKPIsDataMart:tables:film_rental_sales.profit.v_monthly_customer_payments",
                       "displayName": "Monthly Customer Payments",
                       "description": "The view that store the information about monthly customer payments",
                       "physicalType": "VIEW",
