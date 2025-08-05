@@ -1,29 +1,27 @@
 {
   "dataProductDescriptor": "1.0.0",
   "info": {
-    "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea2:1",
+    "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:filmRentalSales:1",
     "domain": "Marketing",
-    "name": "myPerformanceAmEmea2",
+    "name": "filmRentalSales",
     "version": "1.0.0",
-    "displayName": "My Performance AM – EMEA 2",
-    "description": "My Performance AM – EMEA 2 - KPIs Data Mart",
+    "displayName": "Film Rental Sales",
     "owner": {
-      "id": "giandomenico.avelluto@quantyca.it",
-      "name": "giandomenico.avelluto@quantyca.it"
+      "id": "gabriele.fantini@blindata.io",
+      "name": "gabriele.fantini@blindata.io"
     },
     "contactPoints": []
   },
   "interfaceComponents": {
     "inputPorts": [
       {
-        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea2:1:1.0.0:inputPorts:appointmentsTable",
-        "name": "appointmentsTable",
+        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:filmRentalSales:1:1.0.0:inputPorts:film_rental_master_data",
+        "name": "film_rental_master_data",
         "version": "1.0.0",
-        "displayName": "appointmentsTable",
-        "description": "Tabella che contiene i dati riguardanti gli appuntamenti",
+        "displayName": "Film Rental Master Data",
         "componentGroup": null,
         "x-prop": null,
-        "dependsOn": "blindata:systems:BigQuery",
+        "dependsOn": "blindata:systems:PostgreSQL - Film Rental Inc.",
         "slo": null,
         "expectations": null,
         "contracts": null,
@@ -32,11 +30,10 @@
     ],
     "outputPorts": [
       {
-        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:myPerformanceAmEmea2:1:1.0.0:outputPorts:myPerformanceAmKPIsDataMart",
-        "name": "myPerformanceAmKPIsDataMart",
+        "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:filmRentalSales:1:1.0.0:outputPorts:film_rental",
+        "name": "film_rental",
         "version": "1.0.0",
-        "displayName": "myPerformanceAmKPIsDataMart",
-        "description": "Data Mart contentenente tutte le KPI relative a MyPerformance",
+        "displayName": "Film Rental",
         "componentGroup": null,
         "x-prop": null,
         "promises": {
