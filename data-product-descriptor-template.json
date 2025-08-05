@@ -4,7 +4,7 @@
     "fullyQualifiedName": "urn:dpds:qualityDemo:dataproducts:filmRentalSales:1",
     "domain": "Marketing",
     "name": "filmRentalSales",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Film Rental Sales",
     "owner": {
       "id": "gabriele.fantini@blindata.io",
@@ -172,6 +172,7 @@
             "$href": "dummy"
           },
           "template": {
+            "name": "Deploy in Dev",
             "specification": "spec",
             "specificationVersion": "2.0",
             "definition": {}
@@ -188,6 +189,7 @@
             "$href": "dummy"
           },
           "template": {
+            "name": "Deploy in Prod",
             "specification": "spec",
             "specificationVersion": "2.0",
             "definition": {}
